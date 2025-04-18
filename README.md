@@ -6,9 +6,7 @@ Today, we are unable to sync customer metafields from Shopify via our standard i
 
 One tricky piece with syncing metafields is that one method of syncing information, Shopify Flows, does not give access to customer metafields, so we can’t use them to sync metafields to Klaviyo. Another tricky piece is that Klaviyo can’t listen to fields being updated in Shopify, so we can’t sync metafields in real time as their updated. As a result, this solution relies on a Placed Order metric, since these will often result in updated metafields, but it can be configured to trigger on other events. 
 
-> ⚠️
-> 
-> This solution relies on Custom Actions, which are gated to customers with 400k active profiles or more.
+> ⚠️ This solution relies on Custom Actions, which are gated to customers with 400k active profiles or more.
 
 ## Solution
 
